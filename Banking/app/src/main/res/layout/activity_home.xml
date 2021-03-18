@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg4"
+
+    tools:context=".HomeActivity">
+
+    <ImageButton
+
+        android:id="@+id/viewCustomerButton"
+        android:layout_width="254dp"
+        android:layout_height="278dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/i9"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:layout_width="141dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#AEB7ED"
+        android:fontFamily="monospace"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:text="View Users"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
